@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1100px) {
+    
+
+ #addpurbtn{
+    top: 20px;
+    left: 50%;
+    margin-left: -70px;
+    position: relative; 
+}    
+    
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  .mdl-data-table tbody tr {
+    height: auto;
+  }
+
+  .mdl-data-table tbody tr:nth-child(even) {
+/*    background-color: #eee;*/
+  }
+
+  .mdl-data-table td,
+  .mdl-data-table td:first-of-type {
+    padding-left: 50%;
+  }
+
+  .mdl-data-table td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding: 6px 18px 0;
+    white-space: nowrap;
+    content: attr(data-label);
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54118);
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  .mdl-data-table td:last-of-type {
+    padding-right: 18px;
+  }
+    
+    .save{
+        left: 50%;
+        color: red;
+        margin-left: -70px;
+        position: absolute;
+        background-color: red;
+    }
+    
+    .tabone{
+        font-size: 10px;
+    }
+    .tabtwo{
+        font-size: 10px;
+    }
+    .tabthree{
+        font-size: 10px;
+    }
+    
+}
+/*
+@media only screen and (max-width: 360px){
+    
+}
+*/
+@media only screen and (max-width: 360px) {
+
+     .tabone{
+        font-size: 9px;
+    }
+    .tabtwo{
+        font-size: 9px;
+    }
+    .tabthree{
+        font-size: 9px;
+    }
+    
+
+}   

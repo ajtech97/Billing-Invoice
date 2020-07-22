@@ -1,0 +1,28 @@
+
+#popuploginform{
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+    background-color: white;
+/*    border: solid 1px;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 6px 0px;
+}
+#login{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(0,164,255);
+    position: absolute;
+    top: 450px;
+    font-size: 18px;
+    color: white;
+    left: 100px;
+    outline:none;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 0px grey;
+    font-family: sans-serif;
+}
